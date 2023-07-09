@@ -1,0 +1,48 @@
+body {
+  background-color: #000;
+  color: #0f0;
+  font-family: monospace;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+#terminal {
+  flex-grow: 1;
+  padding: 20px;
+  line-height: 1.4;
+  white-space: pre-wrap;
+  margin: 20px;
+  border: 20px solid #3b3b3b;
+  border-radius: 20px;
+  background-color: #224027;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-shadow: 0 0 20px #ffffff;
+}
+
+#content {
+  flex-grow: 1;
+}
+
+#input-line {
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  background-color: #224027;
+}
+
+#command-input {
+  background-color: transparent;
+  color: #0f0;
+  border: none;
+  outline: none;
+  font-family: monospace;
+  font-size: 14px;
+  margin-left: 5px;
+}
